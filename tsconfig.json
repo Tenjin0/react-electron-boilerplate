@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module": "CommonJS",
+      "outDir": "./dist/",
+      "resolveJsonModule": true,
+      "rootDir": "./src/",
+      "strict": true,
+      "allowJs": true,
+      "target": "ES2020"
+    },
+    "include": [
+        "./src/",
+          ],
+    "exclude": [
+      "**/build/**",
+      "**/coverage/**",
+      "**/dist/**",
+      "**/node_modules/**"
+    ]
+  }
